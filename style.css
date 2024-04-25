@@ -4,29 +4,30 @@ html {
 
 body {
   text-align: center;
-  font-family: "Arial", "Meiryo", sans-serif"
+  font-family: "Arial", "Meiryo", "sans-serif";
 }
 
 h1 {
- font-family: "Josefin Sans" sans-serif;
- font-size: 2rem;
- letter-spacing: 1.2em;
- border-bottom: 3px solid rgb(115, 115, 114);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.2em;
+  border-bottom: 3px solid rgb(115, 115, 114);
+  text-shadow: 5px -1px 1px #3333336b;
 }
 
-h2{
- font-size: 20px;
+h2 {
+  font-size: 20px;
 }
 
-.skyblue{
- color: skyblue;  
+.skyblue {
+  color: skyblue;
 }
 
-.pink{
+.pink {
   color: rgb(225, 192, 203);
 }
 
-p{
+p {
   color: black;
   font-size: 20px;
 }
