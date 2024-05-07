@@ -1,0 +1,80 @@
+body,
+h1,
+p {
+  margin: 0;
+}
+
+p,
+a {
+  font-size: 20px;
+}
+
+img {
+  width: 70%;
+  margin: 10px 0;
+}
+
+header {
+  margin-bottom: 20px;
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+main {
+  padding: 10px;
+}
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+.class {
+  border-bottom: 3px;
+}
+.contents {
+  border: solid 3px rgb(238, 204, 204);
+  margin: 10px 0;
+  text-align: center;
+  flex-basis: 25%;
+  padding: 10px 15px;
+}
+
+.contents p:nth-of-type(2)::first-letter {
+  color: rgb(97, 206, 249);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 25px;
+  border-bottom: dotted 3px rgb(236, 122, 122);
+  text-align: center;
+}
+
+h2::before {
+  content: "●";
+  color: rgb(239, 111, 139);
+}
+
+footer {
+  background-color: rgb(244, 79, 79);
+  text-align: center;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+a {
+  color: rgb(193, 234, 251);
+}
+a {
+  color: rgb(245, 178, 168);
+}
+
+@media (max-width: 768px) {
+  #parent {
+    flex-direction: column;
+  }
+}
